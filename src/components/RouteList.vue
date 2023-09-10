@@ -32,6 +32,7 @@ export default {
     fetchRoutes() {
       fetch('http://localhost:8000/routes/', {
           method: 'GET',
+          mode: 'no-cors',
           headers: {
             'token' : 'your-token',
           }
