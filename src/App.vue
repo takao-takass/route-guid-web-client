@@ -1,17 +1,28 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view/>
+  <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+  <!--<RouteList/>-->
+  <!--<RoutePartitionList/>-->
 </template>
 
 <script>
+
+/*
 import HelloWorld from './components/HelloWorld.vue'
+import RouteList from './components/RouteList.vue'
+import RoutePartitionList from './components/RoutePartitionList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    RouteList,
+    RoutePartitionList,
   }
 }
+*/
+
 </script>
 
 <style>
